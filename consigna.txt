@@ -1,0 +1,48 @@
+consigna 1
+en el branch custom-navbar pauso el trabajo "index.html" con git stash
+cambio de rama a master
+se elimina status.js
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (feature/custom-navbar)
+$ git status
+On branch feature/custom-navbar
+Your branch is up to date with 'origin/feature/custom-navbar'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (feature/custom-navbar)
+$ git stash save "index pausado"
+warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it
+Saved working directory and index state On feature/custom-navbar: index pausado
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (feature/custom-navbar)
+$ git stash list
+stash@{0}: On feature/custom-navbar: index pausado
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (feature/custom-navbar)
+$ git status
+On branch feature/custom-navbar
+Your branch is up to date with 'origin/feature/custom-navbar'.
+
+nothing to commit, working tree clean
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (feature/custom-navbar)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (master)
+$ dir
+consigna.txt  index.html  status.js
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (master)
+$ rm -r status.js
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (master)
+$ dir
+consigna.txt  index.html
