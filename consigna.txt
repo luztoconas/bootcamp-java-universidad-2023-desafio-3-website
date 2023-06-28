@@ -1,0 +1,4 @@
+consigna 1
+en el branch custom-navbar pauso el trabajo "index.html" con git stash
+cambio de rama a master
+se elimina status.js
