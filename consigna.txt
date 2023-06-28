@@ -46,3 +46,17 @@ $ rm -r status.js
 tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (master)
 $ dir
 consigna.txt  index.html
+
+consigna 2
+se suben los cambios de react.js a produccion (master) a traves de git merge (front-react) desde master
+se sube a github
+se elimina la rama front-react
+
+tocon@conpu MINGW64 /c/desarrollo/educacionit/bootcamp-java-universidad-2023/desafio-3/git (master)
+$ git merge front-react
+Updating 9cfcb34..a11ee45
+Fast-forward
+ react.js            | 1 +
+ 1 files changed, 1 insertion(+)
+
+
